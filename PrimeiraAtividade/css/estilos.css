@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(rgb(0, 231, 247),rgb(76, 14, 192),rgb(233, 39, 39)); /*degrade*/
+}
+
+h1{
+
+    color: rgb(194, 17, 17);
+    font-size: 60px; /*px - pixels*/
+    font-family: Arial, Helvetica, sans-serif; /*tipo de fonte*/
+    text-align: center; /*titulo centralizado*/
+}
+
+hr{
+    width: 50%; /*% - porcentagem*/
+    height: 20px; /*px - pixels*/
+    background:rgb(138, 3, 3); /*cor de linha*/
+}
+
+p{
+    width: 50%; /*% - porcentagem*/
+    margin: auto; /*margem automatica*/
+}
+
+img{
+    width: 650px; /*altura*/
+    height: 350px; /*largura*/
+    margin: auto; /*margem automatica*/
+}
+
+.caixaimagem{
+    width: fit-content; /* a caixa terá o tamanho do que tem nela */
+    margin: auto;
+}
+
+#vidmario{
+    width: 700px; /*altura*/
+    height: 400px; /*largura*/
+    display: block; /*se comportar como bloco*/
+    margin: auto;
+    border-radius: 40px; /*arredondamento*/
+}
