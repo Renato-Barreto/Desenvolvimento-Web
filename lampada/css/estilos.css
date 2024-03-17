@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    background: linear-gradient(darkblue,darkred);
+    display: flex; /*alinhar os filhos (libera comandos abaixo)*/
+    align-items: center; /*alinhar baixo/cima*/
+    justify-content: center; /*alinhar esquerda/direita*/
+}
+
+
+.central{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex; /*alinhar os filhos (libera comandos abaixo)*/
+    align-items: center; /*alinhar baixo/cima*/
+    justify-content: center; /*alinhar esquerda/direita*/
+    flex-direction: column; /*Direção de alinhamento dos filhos*/
+    gap: 15px; /*Distância entre filhos*/
+}
+
+.central img{
+    height: 180px;
+}
+
+.central button{ /*Método de formatação variados*/
+    width: 80px;
+    background: darkred;
+    color: white;
+    outline: none; /*borda externa do botão*/
+    border: none; /*borda interna do botão*/
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer; /*Esteticamente clicável*/
+    transition: 0.3s; /*Transição entre pseudo-class*/
+}
+
+.central button:hover{ /*Pseudo-class (somente pra classes já )*/
+    background: silver;
+    color: darkred;
+}
+
