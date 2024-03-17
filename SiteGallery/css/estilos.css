@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    background-image: url(/images/ZeldaBackground.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria{
+    background: linear-gradient(darkgreen,lightgreen,darkgreen);
+    width: 500px;
+    height: 750px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.galeria h1{
+    text-align: center;
+    height: 45px;
+    color: white;
+    background: rgb(9, 70, 236);
+    width: 250px;
+    border-radius: 70px;
+}
+
+.galeria img{
+    height: 370px;
+}
+
+.galeria button{
+    width: 200px;
+    background: rgb(9, 70, 236);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.galeria button:hover{
+    background-color: white;
+    color: rgb(9, 70, 236);
+}
