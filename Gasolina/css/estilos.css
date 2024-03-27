@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    background: url(/images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    color: purple;
+}
+
+.meio{
+    width: 370px;
+    height: 400px;
+    background: rgba(0, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.meio input{
+    width: 280px;
+    height: 20px;
+    border: none;
+    outline: 2px solid purple;
+    border-radius: 5px;
+    color: darkblue;
+    background: pink;
+    transition: 0.3s;
+}
+
+.meio input:hover{
+    color: pink;
+    background: purple;
+    outline: 2px solid cyan;
+}
+
+.meio button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: 2px solid purple;
+    border-radius: 20px;
+    background: pink;
+    font-size: 25px;
+    color: darkblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meio button:hover{
+    color: pink;
+    background: purple;
+    outline: 2px solid cyan;
+}
+
+.meio span{
+    font-size: 19px;
+    color: rgb(85, 0, 85);
+}
