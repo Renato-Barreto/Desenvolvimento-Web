@@ -1,0 +1,26 @@
+body{
+    background: url(/images/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#carro{
+    width: 100px;
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    animation: movimento 5s ease-in infinite;
+}
+
+@keyframes movimento{
+    0%{
+        top: 460px;
+        left: 0px;
+    }
+
+    100%{
+        top: 460px; 
+        left: 1500px;
+    }
+}
