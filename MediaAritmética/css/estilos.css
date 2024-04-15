@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/back.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    height: 37px;
+    width: 270px;
+    border-radius: 30px;
+    background: lightskyblue;
+    color: darkblue;
+}
+
+.Meio{
+    width: 370px;
+    height: 400px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: rgba(5, 23, 180, 0.466);
+}
+
+.Meio input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: darkblue;
+    background: lightskyblue;
+    transition: 0.5s;
+}
+
+.Meio input:hover{
+    color: lightskyblue;
+    background: darkblue;
+}
+
+.Meio button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: lightskyblue;
+    font-size: 25px;
+    color: darkblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Meio button:hover{
+    color: lightskyblue;
+    background: darkblue;
+}
+
+.Meio span{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    color: lightblue;
+}
