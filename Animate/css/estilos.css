@@ -1,0 +1,465 @@
+body{
+    background: url('/images/CircuitoFinal.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#Fala{
+    text-align: center;
+    width: 450px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 27px;
+    position: absolute;
+    top: 22%;
+    left: 54%;
+    color: rgb(245, 0, 0);
+    text-shadow: 3px 3px rgb(247, 247, 247);
+}
+
+#Descricao{    
+    text-align: center;
+    width: 550px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 35px;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    color: rgb(245, 0, 0);
+    text-shadow: 3px 3px rgb(247, 247, 247);
+}
+
+#Titulo{
+    background: linear-gradient(red,darkred,red);
+    text-align: center;
+    width: 550px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 70px;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#Creditos{
+    background: linear-gradient(red,darkred,red);
+    text-align: center;
+    width: 410px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 50px;
+    position: absolute;
+    top: 27%;
+    left: 55%;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#carro1{
+    width: 100px;
+    position: absolute;
+    top: 81%;
+    left: 37%;
+    animation: movimentoCarro1 10s infinite linear;
+}
+
+#carro2{
+    width: 100px;
+    position: absolute;
+    top: 86%;
+    left: 37%;
+    animation: movimentoCarro2 12s infinite linear;
+}
+
+@keyframes movimentoCarro1{
+    3%{
+        top: 81%;
+        left: 37%;
+        rotate: 0deg;
+    }
+    
+    7%{
+        top: 81%;
+        left: 48%;
+        rotate: -10deg;
+    }
+    
+    12%{
+        top: 80%;
+        left: 55%;
+        rotate: -40deg;
+    }
+    
+    15%{
+        top: 75%;
+        left: 58%;
+        rotate: -120deg;
+    }
+    
+    18%{
+        top: 70%;
+        left: 59%;
+        rotate: -120deg;
+    }
+    
+    21%{
+        top: 60%;
+        left: 59%;
+        rotate: -90deg;
+    }
+    
+    24%{
+        top: 47%;
+        left: 64%;
+        rotate: 15deg;
+    }
+    
+    27%{
+        top: 48%;
+        left: 70%;
+        rotate: -10deg;
+    }
+    
+    30%{
+        top: 38%;
+        left: 79%;
+        rotate: -120deg;
+    }
+    
+    33%{
+        top: 23%;
+        left: 80%;
+        rotate: -147deg;
+    }
+    
+    36%{
+        top: 13%;
+        left: 79%;
+        rotate: -220deg;
+    }
+    
+    39%{
+        top: 8%;
+        left: 75%;
+        rotate: -180deg;
+    }
+    
+    42%{
+        top: 8%;
+        left: 55%;
+        rotate: -180deg;
+    }
+    
+    44%{
+        top: 12%;
+        left: 49%;
+        rotate: -290deg;
+    }
+    
+    47%{
+        top: 18%;
+        left: 48%;
+        rotate: -300deg;
+    }
+    
+    50%{
+        top: 23%;
+        left: 48%;
+        rotate: -250deg;
+    }
+    
+    53%{
+        top: 34%;
+        left: 45%;
+        rotate: -200deg;
+    }
+    
+    57%{
+        top: 38%;
+        left: 40%;
+        rotate: -190deg;
+    }
+    
+    60%{
+        top: 40%;
+        left: 30%;
+        rotate: -180deg;
+    }
+    
+    63%{
+        top: 40%;
+        left: 27%;
+        rotate: -170deg;
+    }
+    
+    66%{
+        top: 40%;
+        left: 25%;
+        rotate: -220deg;
+    }
+    
+    69%{
+        top: 43%;
+        left: 17%;
+        rotate: -250deg;
+    }
+    
+    72%{
+        top: 49%;
+        left: 15%;
+        rotate: -280deg;
+    }
+    
+    74%{
+        top: 65%;
+        left: 15%;
+        rotate: -320deg;
+    }
+    
+    76%{
+        top: 70%;
+        left: 16%;
+        rotate: -350deg;
+    }
+    
+    79%{
+        top: 76%;
+        left: 17%;
+        rotate: -390deg;
+    }
+    
+    83%{
+        top: 84%;
+        left: 25%;
+        rotate: -420deg;
+    }
+    
+    86%{
+        top: 80%;
+        left: 35%;
+        rotate: -360deg;
+    }
+
+    90%{
+        top: 80%;
+        left: 45%;
+        rotate: -360deg;
+    }
+    
+    95%{
+        top: 80%;
+        left: 50%;
+        rotate: -360deg;
+    }
+    
+    98%{
+        top: 80%;
+        left: 50%;
+        rotate: 0deg;
+    }
+    
+    100%{
+        top: 81%;
+        left: 37%;
+        rotate: 0deg;
+    }
+}
+
+@keyframes movimentoCarro2{
+    3%{
+        top: 86%;
+        left: 37%;
+        rotate: 0deg;
+    }
+    
+    7%{
+        top: 86%;
+        left: 48%;
+        rotate: -10deg;
+    }
+    
+    12%{
+        top: 84%;
+        left: 50%;
+        rotate: -60deg;
+    }
+    
+    15%{
+        top: 75%;
+        left: 58%;
+        rotate: -120deg;
+    }
+    
+    18%{
+        top: 70%;
+        left: 59%;
+        rotate: -120deg;
+    }
+    
+    21%{
+        top: 60%;
+        left: 59%;
+        rotate: -90deg;
+    }
+    
+    24%{
+        top: 47%;
+        left: 64%;
+        rotate: 15deg;
+    }
+    
+    27%{
+        top: 48%;
+        left: 70%;
+        rotate: -10deg;
+    }
+    
+    30%{
+        top: 38%;
+        left: 79%;
+        rotate: -120deg;
+    }
+    
+    33%{
+        top: 23%;
+        left: 80%;
+        rotate: -147deg;
+    }
+    
+    36%{
+        top: 13%;
+        left: 79%;
+        rotate: -220deg;
+    }
+    
+    39%{
+        top: 8%;
+        left: 75%;
+        rotate: -180deg;
+    }
+    
+    42%{
+        top: 8%;
+        left: 55%;
+        rotate: -180deg;
+    }
+    
+    44%{
+        top: 12%;
+        left: 49%;
+        rotate: -290deg;
+    }
+    
+    47%{
+        top: 18%;
+        left: 48%;
+        rotate: -300deg;
+    }
+    
+    50%{
+        top: 23%;
+        left: 48%;
+        rotate: -250deg;
+    }
+    
+    53%{
+        top: 34%;
+        left: 45%;
+        rotate: -200deg;
+    }
+    
+    57%{
+        top: 38%;
+        left: 40%;
+        rotate: -190deg;
+    }
+    
+    60%{
+        top: 40%;
+        left: 30%;
+        rotate: -180deg;
+    }
+    
+    63%{
+        top: 40%;
+        left: 27%;
+        rotate: -170deg;
+    }
+    
+    66%{
+        top: 40%;
+        left: 25%;
+        rotate: -220deg;
+    }
+    
+    69%{
+        top: 43%;
+        left: 17%;
+        rotate: -250deg;
+    }
+    
+    72%{
+        top: 49%;
+        left: 15%;
+        rotate: -280deg;
+    }
+    
+    74%{
+        top: 65%;
+        left: 15%;
+        rotate: -320deg;
+    }
+    
+    76%{
+        top: 70%;
+        left: 16%;
+        rotate: -350deg;
+    }
+    
+    79%{
+        top: 76%;
+        left: 17%;
+        rotate: -390deg;
+    }
+    
+    83%{
+        top: 84%;
+        left: 25%;
+        rotate: -420deg;
+    }
+    
+    86%{
+        top: 86%;
+        left: 35%;
+        rotate: -360deg;
+    }
+
+    90%{
+        top: 86%;
+        left: 45%;
+        rotate: -360deg;
+    }
+    
+    95%{
+        top: 86%;
+        left: 50%;
+        rotate: -360deg;
+    }
+    
+    98%{
+        top: 86%;
+        left: 50%;
+        rotate: 0deg;
+    }
+    
+    100%{
+        top: 86%;
+        left: 37%;
+        rotate: 0deg;
+    }
+}
