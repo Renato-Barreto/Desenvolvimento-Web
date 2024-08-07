@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="pausar">
+            <button><img src="images/play.png"></button>
+        </div>
+
+        <div class="configurar">
+            <button><img src="images/settings.png"></button>
+        </div>
+
+        <div class="sair">
+            <button><img src="images/home.png"></button>
+        </div>
+    </div>
+
+
+    <div class="principal" id="principal">
+        <h1>João precisava atravessar o rio, mas não sabia nadar, logo ele usou...</h1>
+        <audio src=""></audio>
+        <img src="images/rio.jpg">
+        <h1 id="result"></h1>
+    </div>
+
+    <div class="alternatives" id="alternatives">
+        <div class="first">
+            <button class="primeiro" id="primeiro"><img src="images/caminhao.jpg"></button>
+        </div>
+
+        <div class="second">
+            <button class="segundo" id="segundo"><img src="images/moto.jpg"></button>
+        </div>
+
+        <div class="third">
+            <button class="terceiro" id="terceiro"><img src="images/barco.jpg"></button>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

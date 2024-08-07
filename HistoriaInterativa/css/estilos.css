@@ -1,0 +1,165 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(255, 176, 72),rgb(255, 212, 147),rgb(255, 176, 72));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 100px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 40px;
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+
+.menu img{
+    height: 50px;
+    width: 50px;
+}
+
+.menu button{
+    background: rgb(236, 155, 63);
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu button:hover{
+    background: rgb(250, 213, 171);
+}
+
+.pausar{
+    background: rgb(236, 155, 63);
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configurar{
+    background: rgb(236, 155, 63);
+    color: white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sair{
+    background: rgb(236, 155, 63);
+    color: white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    width: 700px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(236, 142, 35);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 50px;
+    position: absolute;
+    left: 30%;
+}
+
+.principal img{
+    width: 550px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.alternatives{
+    width: 300px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    gap: 70px;
+    border-radius: 50px;
+    position: absolute;
+    left: 75%;
+}
+
+.alternatives img{
+    background: rgb(236, 155, 63);
+    border-radius: 50px;
+    height: 190px;
+    width: 190px;
+}
+
+.alternatives button{
+    background: rgb(236, 155, 63);
+    height: 210px;
+    width: 210px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alternatives button:hover{
+    background: rgb(250, 213, 171);
+    
+}
+
+.first{
+    background: rgb(236, 155, 63);
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.second{
+    background: rgb(236, 155, 63);   
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.third{
+    background: rgb(236, 155, 63);
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+}
